@@ -1,19 +1,19 @@
 
-# [Grid Styled](http://jxnblk.com/grid-styled)
+# Grid Emotion
 
-Responsive React grid system built with [styled-components](https://github.com/styled-components/styled-components)
+Responsive React grid system built with [emotion](https://github.com/tkh44/emotion) forked from [grid-styled](https://github.com/jxnblk/grid-styled)
 
-[![Build Status](https://travis-ci.org/jxnblk/grid-styled.svg?branch=master)](https://travis-ci.org/jxnblk/grid-styled)
+[![Build Status](https://travis-ci.org/mitchellhamilton/grid-emotion.svg?branch=master)](https://travis-ci.org/mitchellhamilton/grid-emotion)
 
 ## Getting Started
 
 ```sh
-npm i grid-styled
+npm i grid-emotion
 ```
 
 ```jsx
 import React from 'react'
-import { Flex, Box } from 'grid-styled'
+import { Flex, Box } from 'grid-emotion'
 
 const App = () => (
   <Flex>
@@ -101,7 +101,7 @@ const App = () => (
 
 ```jsx
 // Display inline-block grid
-import { Grid } from 'grid-styled'
+import { Grid } from 'grid-emotion'
 
 <div>
   <Grid width={1/2}>Half</Grid>
@@ -207,11 +207,11 @@ The Box component uses [styled-system](https://github.com/jxnblk/styled-system) 
 ## Theming
 
 Grid Styled uses smart defaults, but to customize the values,
-use styled-components’ `ThemeProvider` component.
+use emotion’s `ThemeProvider` component.
 
 ```jsx
 import React from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'emotion/react'
 
 const App = () => (
   <ThemeProvider
@@ -245,6 +245,7 @@ which helps keep spacing consistent and elements aligned even when nesting compo
 
 ### Related
 
+- [grid-styled](https://github.com/jxnblk/grid-styled)
 - [styled-system](https://github.com/jxnblk/styled-system)
 - [styled-components](https://github.com/styled-components/styled-components)
 
