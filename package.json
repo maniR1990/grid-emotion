@@ -1,9 +1,9 @@
 {
   "name": "grid-emotion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Responsive React grid system built with emotion",
   "main": "dist/index.js",
-  "files": ["dist", "src", "docs"],
+  "files": ["dist", "src"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mitchellhamilton/grid-emotion.git"
