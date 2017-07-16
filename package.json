@@ -1,7 +1,7 @@
 {
   "name": "grid-emotion",
-  "version": "1.0.2",
-  "description": "Responsive React grid system built with emotion",
+  "version": "1.0.3",
+  "description": "Responsive React grid system built with emotion, forked from grid-styled",
   "main": "dist/index.js",
   "files": ["dist", "src"],
   "repository": {
@@ -34,6 +34,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.16.3",
     "funcup": "^1.0.0-0",
+    "hidden-styled": "^1.0.0-0",
     "html-webpack-plugin": "^2.24.0",
     "raw-loader": "^0.5.1",
     "react": "^15.5.4",
@@ -50,7 +51,7 @@
   "dependencies": {
     "emotion": "^5.2.0",
     "prop-types": "^15.5.10",
-    "styled-system": "^1.0.0-8"
+    "styled-system": "^1.0.0-9"
   },
   "ava": {
     "require": [
