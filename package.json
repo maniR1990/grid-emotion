@@ -3,14 +3,18 @@
   "version": "1.0.4",
   "description": "Responsive React grid system built with emotion, forked from grid-styled",
   "main": "dist/index.js",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mitchellhamilton/grid-emotion.git"
   },
   "scripts": {
     "prepublish": "babel src -d dist",
-    "test": "ava",
+    "test": "nyc ava",
+    "cover": "nyc report --reporter=lcov --reporter=html",
     "start": "webpack-dev-server",
     "docs": "NODE_ENV=production webpack -p",
     "icon-dev": "repng docs/Icon.js --dev",
@@ -36,6 +40,7 @@
     "funcup": "^1.0.0-0",
     "hidden-styled": "^1.0.0-0",
     "html-webpack-plugin": "^2.24.0",
+    "nyc": "^11.0.3",
     "raw-loader": "^0.5.1",
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.3.2",
@@ -49,9 +54,10 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "emotion": "^6.0.1",
+    "emotion": "^7.0.13",
     "prop-types": "^15.5.10",
-    "styled-system": "^1.0.0-9"
+    "styled-system": "^1.0.0-9",
+    "tag-hoc": "^1.0.0-0"
   },
   "ava": {
     "require": [

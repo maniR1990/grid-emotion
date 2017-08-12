@@ -2,80 +2,56 @@
 
 exports[`Box renders 1`] = `
 <div
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-hchqw9 css-198oszz css-hchqw9 css-hchqw9"
-  m={2}
-  px={3}
+  className="css-Box-bj4plh0 css-1dmh3vl"
+  is={null}
+/>
+`;
+
+exports[`Box renders with \`is\` prop 1`] = `
+<section
+  className="css-Box-bj4plh0 css-1fb8nlb"
+  is={null}
 />
 `;
 
 exports[`Box renders with props 1`] = `
 <div
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-1mfq5q8 css-1gv4q7a css-11pcfac css-hchqw9"
-  flex="1 1 auto"
-  m={
-    Array [
-      1,
-      2,
-    ]
-  }
-  px={
-    Array [
-      1,
-      2,
-    ]
-  }
-  w={1}
+  className="css-Box-bj4plh0 css-llrj1"
+  is={null}
 />
 `;
 
 exports[`Flex renders 1`] = `
 <div
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-hchqw9 css-1d8ny0s css-hchqw9 css-hchqw9 css-Flex-iai2u3-ip164w css-Flex-iai2u3 css-hchqw9 css-hchqw9 css-15famh2 css-15famh2"
+  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-yhi7lm"
+  is={null}
+/>
+`;
+
+exports[`Flex renders with column prop 1`] = `
+<div
+  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-tvfzfn"
+  is={null}
 />
 `;
 
 exports[`Flex renders with props 1`] = `
 <div
-  align="center"
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-hchqw9 css-1d8ny0s css-hchqw9 css-hchqw9 css-Flex-iai2u3-ip164w css-Flex-iai2u3 css-11b14cv css-qnjlw8 css-15famh2 css-15famh2"
-  direction="column"
-  justify="space-between"
-  wrap={true}
+  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-fw7ycq"
+  is={null}
 />
 `;
 
 exports[`Flex renders with responsive props 1`] = `
 <div
-  align={
-    Array [
-      "stretch",
-      "center",
-    ]
-  }
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-hchqw9 css-1d8ny0s css-hchqw9 css-hchqw9 css-Flex-iai2u3-ip164w css-Flex-iai2u3 css-1kx4qq7 css-pnmfdi css-15famh2 css-15famh2"
-  direction={
-    Array [
-      "column",
-      "row",
-    ]
-  }
-  justify={
-    Array [
-      "space-between",
-      "center",
-    ]
-  }
-  wrap={
-    Array [
-      true,
-      false,
-    ]
-  }
+  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-1g8i4fw"
+  is={null}
 />
 `;
 
 exports[`Grid renders 1`] = `
 <div
-  className="css-Box-1mfbxsm-cy1wdo css-Box-1mfbxsm css-hchqw9 css-1d8ny0s css-hchqw9 css-hchqw9 css-Grid-565a26-j7b2mk css-Grid-565a26"
+  className="css-Box-bj4plh0 css-Grid-hgdwh50 css-1ojpo2u"
+  is={null}
 />
 `;
