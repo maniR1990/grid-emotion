@@ -1,5 +1,6 @@
-import test from 'ava'
 import React from 'react'
+import { sheet } from 'emotion'
+import serializer from 'jest-glamor-react'
 import { create as render } from 'react-test-renderer'
 import {
   Box,
@@ -8,56 +9,58 @@ import {
 } from './src'
 import { flex } from './src/Box'
 
+expect.addSnapshotSerializer(serializer(sheet))
+
 // Box
-test('Box renders', t => {
+test('Box renders', () => {
   const json = render(<Box m={2} px={3} />).toJSON()
-  t.snapshot(json)
+  expect(json).toMatchSnapshot()
 })
 
-test('Box renders with props', t => {
+test('Box renders with props', () => {
   const json = render(<Box
     m={[ 1, 2 ]}
     px={[ 1, 2 ]}
     w={1}
     flex='1 1 auto'
   />)
-  t.snapshot(json)
+  expect(json).toMatchSnapshot()
 })
 
-test('Box renders with `is` prop', t => {
+test('Box renders with `is` prop', () => {
   const json = render(<Box is='section' />).toJSON()
-  t.snapshot(json)
-  t.is(json.type, 'section')
+  expect(json).toMatchSnapshot()
+  expect(json.type).toBe('section')
 })
 
-test('flex util returns null', t => {
+test('flex util returns null', () => {
   const sx = flex({})
-  t.is(sx, null)
+  expect(sx).toBe(null)
 })
 
-test('flex util returns a style object', t => {
+test('flex util returns a style object', () => {
   const sx = flex({ flex: 'none' })
-  t.is(sx.flex, 'none')
+  expect(sx.flex).toBe('none')
 })
 
 // Grid
-test('Grid renders', t => {
+test('Grid renders', () => {
   const grid = render(<Grid />)
-  t.snapshot(grid)
+  expect(grid).toMatchSnapshot()
 })
 
-test('Grid has a classname', t => {
+test('Grid has a classname', () => {
   const div = render(<Grid />).toJSON()
-  t.truthy(div.props.className)
+  expect(div.props.className).toBeTruthy()
 })
 
 // Flex
-test('Flex renders', t => {
+test('Flex renders', () => {
   const flex = render(<Flex />)
-  t.snapshot(flex)
+  expect(flex).toMatchSnapshot()
 })
 
-test('Flex renders with props', t => {
+test('Flex renders with props', () => {
   const flex = render(
     <Flex
       wrap
@@ -66,19 +69,19 @@ test('Flex renders with props', t => {
       justify='space-between'
     />
   )
-  t.snapshot(flex)
+  expect(flex).toMatchSnapshot()
 })
 
-test('Flex renders with column prop', t => {
+test('Flex renders with column prop', () => {
   const flex = render(
     <Flex
       column
     />
   )
-  t.snapshot(flex)
+  expect(flex).toMatchSnapshot()
 })
 
-test('Flex renders with responsive props', t => {
+test('Flex renders with responsive props', () => {
   const flex = render(
     <Flex
       wrap={[ true, false ]}
@@ -87,5 +90,5 @@ test('Flex renders with responsive props', t => {
       justify={[ 'space-between', 'center' ]}
     />
   )
-  t.snapshot(flex)
+  expect(flex).toMatchSnapshot()
 })
