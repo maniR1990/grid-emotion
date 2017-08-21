@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'emotion/react'
+import styled from 'react-emotion'
 import { space, width, responsiveStyle } from 'styled-system'
 import { number, string, array, oneOfType } from 'prop-types'
 import tag from 'tag-hoc'

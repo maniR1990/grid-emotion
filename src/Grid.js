@@ -1,4 +1,4 @@
-import styled from 'emotion/react'
+import styled from 'react-emotion'
 import Box from './Box'
 
 const align = props => ({ verticalAlign: props.align || 'top' })

@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'emotion/react'
+import styled, { css } from 'react-emotion'
 import { responsiveStyle } from 'styled-system'
 import { oneOfType, number, string, array, bool } from 'prop-types'
 import propTypes from './propTypes'

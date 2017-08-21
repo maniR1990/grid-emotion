@@ -54,8 +54,9 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "emotion": "^7.0.13",
+    "emotion": "^7.2.0",
     "prop-types": "^15.5.10",
+    "react-emotion": "^7.2.0",
     "styled-system": "^1.0.0-9",
     "tag-hoc": "^1.0.0-0"
   },

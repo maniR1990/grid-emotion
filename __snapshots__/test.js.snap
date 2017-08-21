@@ -2,56 +2,56 @@
 
 exports[`Box renders 1`] = `
 <div
-  className="css-Box-bj4plh0 css-1dmh3vl"
+  className="css-Box-g9mxku0 css-1dmh3vl"
   is={null}
 />
 `;
 
 exports[`Box renders with \`is\` prop 1`] = `
 <section
-  className="css-Box-bj4plh0 css-1fb8nlb"
+  className="css-Box-g9mxku0 css-1fb8nlb"
   is={null}
 />
 `;
 
 exports[`Box renders with props 1`] = `
 <div
-  className="css-Box-bj4plh0 css-llrj1"
+  className="css-Box-g9mxku0 css-llrj1"
   is={null}
 />
 `;
 
 exports[`Flex renders 1`] = `
 <div
-  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-yhi7lm"
+  className="css-Box-g9mxku0 css-Flex-znv1ty0 css-yhi7lm"
   is={null}
 />
 `;
 
 exports[`Flex renders with column prop 1`] = `
 <div
-  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-tvfzfn"
+  className="css-Box-g9mxku0 css-Flex-znv1ty0 css-tvfzfn"
   is={null}
 />
 `;
 
 exports[`Flex renders with props 1`] = `
 <div
-  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-fw7ycq"
+  className="css-Box-g9mxku0 css-Flex-znv1ty0 css-fw7ycq"
   is={null}
 />
 `;
 
 exports[`Flex renders with responsive props 1`] = `
 <div
-  className="css-Box-bj4plh0 css-Flex-qbf90n0 css-1g8i4fw"
+  className="css-Box-g9mxku0 css-Flex-znv1ty0 css-1g8i4fw"
   is={null}
 />
 `;
 
 exports[`Grid renders 1`] = `
 <div
-  className="css-Box-bj4plh0 css-Grid-hgdwh50 css-1ojpo2u"
+  className="css-Box-g9mxku0 css-Grid-6hcc0v0 css-1ojpo2u"
   is={null}
 />
 `;
